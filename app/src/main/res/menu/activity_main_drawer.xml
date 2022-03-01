@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/mosque"
+            android:title="Masjidlar" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/museum"
+            android:title="Muzeylar" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/school"
+            android:title="Universitetlar" />
+
+
+        <item android:title="Profile">
+            <menu>
+
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/we_about"
+                    android:title="Biz haqimizda" />
+            </menu>
+
+        </item>
+
+    </group>
+
+</menu>
